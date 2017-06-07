@@ -1,4 +1,4 @@
-package com.tresb.webservice;
+package com.tresb.webservice.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

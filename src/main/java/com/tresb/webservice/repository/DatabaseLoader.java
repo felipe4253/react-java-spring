@@ -1,8 +1,10 @@
-package com.tresb.webservice;
+package com.tresb.webservice.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+
+import com.tresb.webservice.entity.Funcionario;
 
 /**
  * @author weslei.dias
