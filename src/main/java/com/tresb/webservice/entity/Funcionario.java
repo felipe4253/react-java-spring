@@ -9,7 +9,7 @@ import lombok.Data;
 /**
  * @author weslei.dias
  */
-@Data
+
 @Entity
 public class Funcionario {
 
@@ -29,4 +29,32 @@ public class Funcionario {
 		this.ultimoNome = lastName;
 		this.cargo = description;
 	}
+
+	public String getPrimeiroNome() {
+		return primeiroNome;
+	}
+
+	public void setPrimeiroNome(String primeiroNome) {
+		this.primeiroNome = primeiroNome;
+	}
+
+	public String getUltimoNome() {
+		return ultimoNome;
+	}
+
+	public void setUltimoNome(String ultimoNome) {
+		this.ultimoNome = ultimoNome;
+	}
+
+	public String getCargo() {
+		return cargo;
+	}
+
+	public void setCargo(String cargo) {
+		this.cargo = cargo;
+	}
+	
+	
+	
+	
 }
