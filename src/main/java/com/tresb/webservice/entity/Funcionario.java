@@ -18,13 +18,7 @@ public class Funcionario {
 	private String ultimoNome;
 	private String cargo;
 
-	private Funcionario() 
-	{
-		
-	}
-
-	public Funcionario(String firstName, String lastName, String description) 
-	{
+	public Funcionario(String firstName, String lastName, String description){
 		this.primeiroNome = firstName;
 		this.ultimoNome = lastName;
 		this.cargo = description;

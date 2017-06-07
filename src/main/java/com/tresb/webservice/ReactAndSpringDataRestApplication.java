@@ -12,11 +12,9 @@ import org.springframework.web.filter.CorsFilter;
  * @author weslei.dias
  */
 @SpringBootApplication
-public class ReactAndSpringDataRestApplication
-{
+public class ReactAndSpringDataRestApplication{
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args){
 		SpringApplication.run(ReactAndSpringDataRestApplication.class, args);
 	}
 	
